@@ -1,0 +1,44 @@
+@import 'sass/variables';
+@import 'sass/secondary';
+@import 'sass/mixin';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $base-size;
+    background-color: #333;
+    color: white;
+}
+
+//$cell-padding: bottom;
+
+
+
+div {
+    padding-top: 5%;
+    width: 100%;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+@each $size in $col-sizes {
+    #col-#{$size} {
+        @include size(xs, $size);
+        @include size(sm, $size);
+        @include size(md, $size);
+        @include size(lg, $size);
+    }
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}

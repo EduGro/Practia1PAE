@@ -1,0 +1,51 @@
+@import 'variables';
+
+@mixin size($class, $col) {
+    @if $class==xs {
+        @media (max-width: $small-screen) {
+            @if ($col >= 3){
+                width: getWidth($base);
+            } @else{
+                width: getWidth($col);
+            }
+            background-color: darkblue;
+        }
+    }
+
+    @else if $class==sm {
+        @media (min-width: $small-screen) {
+            @if ($col >= 6){
+                width: getWidth($base);
+            } @else{
+                width: getWidth(6);
+            }
+            background-color: orange;
+            height: 550px;
+        }
+    }
+
+    @else if $class==md {
+        @media (min-width: $medium-screen) {
+            @if ($col >= 9){
+                width: getWidth($base);
+            } @else{
+                width: getWidth($col);
+            }
+            background-color: black;
+            height: 650px;
+        }
+    }
+
+    @else if $class==lg {
+        @media (min-width: 1200px) {
+            width: getWidth($col);
+            background-color: blueviolet;
+            height: 500px;
+            padding-top: 1%;
+        }
+    }
+}
+
+@function getWidth($cols) {
+    @return $cols/ $base * 100%;
+}

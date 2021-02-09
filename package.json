@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx gulp"
   },
   "author": "Eduardo",
   "license": "ISC",
   "description": "Practica 1: Gulp, Sass, Typescript & Handlebars",
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-webserver": "^0.9.1",
     "sass": "^1.32.6",
     "typescript": "^4.1.3"
   }

@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box; }
+
+/*This works in order for the percentage to be correct*/
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: navy;
+  color: white; }
+
+form {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.button {
+  background-color: navy;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #333;
+  color: white; }
+
+div {
+  padding-top: 5%;
+  width: 100%;
+  float: left; }
+
+h1 {
+  text-align: center; }
+
+@media (max-width: 480px) {
+  #col-12 {
+    width: 100%;
+    background-color: darkblue; } }
+
+@media (min-width: 480px) {
+  #col-12 {
+    width: 100%;
+    background-color: orange;
+    height: 550px; } }
+
+@media (min-width: 720px) {
+  #col-12 {
+    width: 100%;
+    background-color: black;
+    height: 650px; } }
+
+@media (min-width: 1200px) {
+  #col-12 {
+    width: 100%;
+    background-color: blueviolet;
+    height: 500px;
+    padding-top: 1%; } }
+
+@media (max-width: 480px) {
+  #col-9 {
+    width: 100%;
+    background-color: darkblue; } }
+
+@media (min-width: 480px) {
+  #col-9 {
+    width: 100%;
+    background-color: orange;
+    height: 550px; } }
+
+@media (min-width: 720px) {
+  #col-9 {
+    width: 100%;
+    background-color: black;
+    height: 650px; } }
+
+@media (min-width: 1200px) {
+  #col-9 {
+    width: 75%;
+    background-color: blueviolet;
+    height: 500px;
+    padding-top: 1%; } }
+
+@media (max-width: 480px) {
+  #col-6 {
+    width: 100%;
+    background-color: darkblue; } }
+
+@media (min-width: 480px) {
+  #col-6 {
+    width: 100%;
+    background-color: orange;
+    height: 550px; } }
+
+@media (min-width: 720px) {
+  #col-6 {
+    width: 50%;
+    background-color: black;
+    height: 650px; } }
+
+@media (min-width: 1200px) {
+  #col-6 {
+    width: 50%;
+    background-color: blueviolet;
+    height: 500px;
+    padding-top: 1%; } }
+
+@media (max-width: 480px) {
+  #col-3 {
+    width: 100%;
+    background-color: darkblue; } }
+
+@media (min-width: 480px) {
+  #col-3 {
+    width: 50%;
+    background-color: orange;
+    height: 550px; } }
+
+@media (min-width: 720px) {
+  #col-3 {
+    width: 25%;
+    background-color: black;
+    height: 650px; } }
+
+@media (min-width: 1200px) {
+  #col-3 {
+    width: 25%;
+    background-color: blueviolet;
+    height: 500px;
+    padding-top: 1%; } }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%; }
