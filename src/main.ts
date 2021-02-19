@@ -33,9 +33,6 @@ function init() {
     </div>
     {{/each}}`;
     const template = Handlebars.compile(templateSource);
-    console.log("I am working");
-    console.log(templateSource);
-    console.log(template);
     document.getElementById('news-item').innerHTML = template({
         news: theNews
     });
