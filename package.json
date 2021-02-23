@@ -8,7 +8,7 @@
   },
   "author": "Eduardo",
   "license": "ISC",
-  "description": "Practica 1: Gulp, Sass, Typescript & Handlebars",
+  "description": "Practica 2: Node",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
@@ -16,5 +16,20 @@
     "gulp-webserver": "^0.9.1",
     "sass": "^1.32.6",
     "typescript": "^4.1.3"
-  }
+  },
+  "dependencies": {
+    "@types/node": "^14.14.31",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "packages": "0.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduGro/Practia1PAE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EduGro/Practia1PAE/issues"
+  },
+  "homepage": "https://github.com/EduGro/Practia1PAE#readme"
 }

@@ -31,7 +31,7 @@ gulp.task('watch:scripts', gulp.series('scripts', function(done){
 }))
 
 gulp.task('html', function(){
-    return gulp.src('src/index.html') //origen
+    return gulp.src('src/*.html') //origen
         .pipe(gulp.dest(buildPath)); //destino
 })
 

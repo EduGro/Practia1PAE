@@ -1,41 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel='stylesheet' href='assets/styles/styles.css' />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
 </head>
-
 <body>
-    <h1>Las noticias de hoy</h1>
-
-    <form>
-        <input type="text" name="search" id="search" placeholder="Noticias personalizadas..">
-        <button type="submit" id="btn" class="button">Buscar</button>
-    </form>
-
-    
-
-
-    <div id="news-item">
-        {{#each news}}
-        <div id="col-3">
-
-            <img src={{urlToImage}}>
-            <h2>{{title}}</h2>
-            <p>{{description}}</p>
-            <a href={{url}} target="_blank">Ver más</a>
-
-        </div>
-        {{/each}}
-    </div>
-
-
-    <script src="assets/scripts/main.js"></script>
+    <a href="news.html">Click me to go to news</a>
 </body>
-
 </html>
