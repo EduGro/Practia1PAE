@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/assets/regsitro/index.js"></script>
+    <link rel='stylesheet' href='assets/styles/from.css' />
+<body>
+    <h1 class="center">Favor de registrarse</h1>
+    <div class="form-style-3">
+        <form action="/users" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Registro</legend>
+                <label for="field1"><span>Name <span class="required">*</span></span><input type="text"
+                        class="input-field" name="name" /></label>
+                <label for="field2"><span>Email <span class="required">*</span></span><input type="text"
+                        class="input-field" name="email" /></label>
+                <label for="field3"><span>Password <span class="required">*</span></span><input type="password"
+                        class="input-field" name="pass" /></label>
+                <label for="field3"><span>Archivo <span class="required">*</span></span><input type="file"
+                        class="input-field" name="profilePic" /></label>
+                <button>Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
